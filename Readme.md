@@ -13,7 +13,7 @@ const app = express()
 app.get('/', function (req, res) {
   res.send('Hello World')
 })
-
+print ("hello world")
 app.listen(3000)
 ```
 
